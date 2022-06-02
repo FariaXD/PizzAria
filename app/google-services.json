@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "625937809259",
+    "project_id": "pizzaria-dam",
+    "storage_bucket": "pizzaria-dam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625937809259:android:4860d2734f130669d5162e",
+        "android_client_info": {
+          "package_name": "com.dam47455.pizzaria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625937809259-o2lfe826n1tab61mj71q8qnhft8uo11t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHvFSZbIc8OgQN3Y_VJspczQ6_-i4qMDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625937809259-o2lfe826n1tab61mj71q8qnhft8uo11t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

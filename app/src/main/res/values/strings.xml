@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PizzAria</string>
+    <string name="all_rights_reserved_2022">All rights Reserved 2022</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_username">Welcome, USERNAME</string>
+    <string name="press_to_continue">Press to continue...</string>
+    <string name="incorrect_username">Incorrect format for username \n Username must be 8 to 16 characters long. \n Can\'t contain special characters.</string>
+    <string name="incorrect_email">Incorrect Email</string>
+    <string name="incorrect_password">Incorrect Password \nPassword must contain 8 to 16 characters.\nMust not contain special characters.</string>
+    <string name="incorrect_confirm_password">Passwords don\'t match.</string>
+    <string name="logout">Logout</string>
+</resources>
