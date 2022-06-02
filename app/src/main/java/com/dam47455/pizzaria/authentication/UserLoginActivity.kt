@@ -21,7 +21,7 @@ class UserLoginActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.loginSubmitBtn).setOnClickListener{
-            val username = findViewById<EditText>(R.id.loginUsername)
+            val username = findViewById<EditText>(R.id.loginEmail)
             val password = findViewById<EditText>(R.id.loginPassword)
             val loginUser = LoginUser(username.text.toString(), password.text.toString())
             when(loginUser.validateLoginFields()){

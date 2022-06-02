@@ -20,7 +20,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         makeFullScreen(window)
         val fAuth = FirebaseAuth.getInstance()
+        //fAuth.signOut()
         val user = fAuth.currentUser
+
 
         if(user != null){
             val intent = Intent(this, WelcomeUserActivity::class.java)
@@ -40,6 +42,7 @@ class MainActivity : AppCompatActivity() {
     }
     companion object{
         /** Hides system bars and app title */
+        val databaseURL = "https://pizzaria-dam-default-rtdb.europe-west1.firebasedatabase.app/"
         fun makeFullScreen(window: Window) {
             @Suppress("DEPRECATION")
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {

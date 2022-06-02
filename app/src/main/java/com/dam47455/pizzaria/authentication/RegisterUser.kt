@@ -1,15 +1,16 @@
 package com.dam47455.pizzaria.authentication
 
-class RegisterUser(var username: String, var email: String, var password: String, var cpassword: String) {
+class RegisterUser(var firstName: String, var lastName: String, var email: String, var password: String, var cpassword: String) {
 
     val MIN_LENGTH: Int = 8
     val MAX_LENGTH: Int = 16
     var validationFlag : RegisterValidation = RegisterValidation.NOERRORS
     enum class RegisterValidation{
-        NOERRORS, USERNAMEERROR, EMAILERROR, PASSWORDERROR, CONFIRMPASSWORDERROR
+        NOERRORS, FIRSTNAMEERROR, LASTNAMEERROR, EMAILERROR, PASSWORDERROR, CONFIRMPASSWORDERROR
     }
     fun validateInformation(): RegisterValidation {
-        validationFlag = if (!validateUsername() && !registrationHasError()) RegisterValidation.USERNAMEERROR else if(registrationHasError()) return validationFlag else RegisterValidation.NOERRORS
+        validationFlag = if (!validateName(firstName) && !registrationHasError()) RegisterValidation.FIRSTNAMEERROR else if(registrationHasError()) return validationFlag else RegisterValidation.NOERRORS
+        validationFlag = if (!validateName(lastName) && !registrationHasError()) RegisterValidation.LASTNAMEERROR else if(registrationHasError()) return validationFlag else RegisterValidation.NOERRORS
         validationFlag = if (!validateEmail() && !registrationHasError()) RegisterValidation.EMAILERROR else if(registrationHasError()) return validationFlag else RegisterValidation.NOERRORS
         validationFlag = if (!validatePassword() && !registrationHasError()) RegisterValidation.PASSWORDERROR else if(registrationHasError()) return validationFlag else RegisterValidation.NOERRORS
         validationFlag = if (!passwordMatches() && !registrationHasError()) RegisterValidation.CONFIRMPASSWORDERROR else if(registrationHasError()) return validationFlag else RegisterValidation.NOERRORS
@@ -20,8 +21,8 @@ class RegisterUser(var username: String, var email: String, var password: String
         return validationFlag != RegisterValidation.NOERRORS
     }
 
-    private fun validateUsername(): Boolean{
-        return username.isNotEmpty() && isLetters(username) && username.length > MIN_LENGTH && username.length < MAX_LENGTH
+    private fun validateName(name: String): Boolean{
+        return name.isNotEmpty() && isLetters(name)
     }
 
     private fun validateEmail(): Boolean {

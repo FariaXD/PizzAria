@@ -10,9 +10,11 @@
     <string name="todo">TODO</string>
     <string name="welcome_username">Welcome, USERNAME</string>
     <string name="press_to_continue">Press to continue...</string>
-    <string name="incorrect_username">Incorrect format for username \n Username must be 8 to 16 characters long. \n Can\'t contain special characters.</string>
+    <string name="incorrect_username">Incorrect Name, names can\'t contain numbers or special characters.</string>
     <string name="incorrect_email">Incorrect Email</string>
     <string name="incorrect_password">Incorrect Password \nPassword must contain 8 to 16 characters.\nMust not contain special characters.</string>
     <string name="incorrect_confirm_password">Passwords don\'t match.</string>
     <string name="logout">Logout</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
 </resources>
