@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import com.dam47455.pizzaria.MainActivity
 import com.dam47455.pizzaria.R
 import com.google.firebase.auth.FirebaseAuth
 
@@ -16,7 +17,7 @@ class UserLoginActivity : AppCompatActivity() {
         val fAuth : FirebaseAuth = FirebaseAuth.getInstance()
 
         findViewById<Button>(R.id.loginRegisterBtn).setOnClickListener{
-            var intent = Intent(this, UserRegisterActivity::class.java)
+            val intent = Intent(this, UserRegisterActivity::class.java)
             startActivity(intent)
         }
 

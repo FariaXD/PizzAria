@@ -6,10 +6,22 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FEDBD0</color>
     <color name="reddark">#5A0002</color>
     <color name="redbright">#A40606</color>
     <color name="grayolive">#434A42</color>
     <color name="yellowcitrine">#B2D7CF07</color>
+    <color name="yellow">#E3DA04</color>
     <color name="darkpurple">#351431</color>
+    <color name="shrine_pink_100">#FEDBD0</color>
+    <color name="shrine_pink_900">#442C2E</color>
+
+
+    <!--Categories-->
+    <color name="meatC">#7E4220</color>
+    <color name="seaC">#225E66</color>
+    <color name="veganC">#226631</color>
+    <color name="extrasC">#BC7C1D</color>
+    <color name="drinksC">#1D70BC</color>
+    <color name="discount">#19C820</color>
 </resources>

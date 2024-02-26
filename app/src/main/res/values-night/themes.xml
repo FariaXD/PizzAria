@@ -2,9 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.PizzAria" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
@@ -15,5 +14,13 @@
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
         <item name="android:fontFamily">@font/arvo</item>
 
+        <item name="bottomNavigationStyle">@style/Widget.PizzAria.BottomNavigationView</item>
+    </style>
+    <style name="Widget.PizzAria.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.PizzAria.BottomNavigationView</item>
+    </style>
+    <style name="ThemeOverlay.PizzAria.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/shrine_pink_100</item>
+        <item name="colorOnPrimary">@color/shrine_pink_900</item>
     </style>
 </resources>

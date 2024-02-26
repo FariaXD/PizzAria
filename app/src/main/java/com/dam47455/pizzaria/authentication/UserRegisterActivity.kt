@@ -6,11 +6,11 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.dam47455.pizzaria.MainActivity
 import com.dam47455.pizzaria.R
-import com.dam47455.pizzaria.authentication.MainActivity.Companion.databaseURL
-import com.dam47455.pizzaria.authentication.data.User
+import com.dam47455.pizzaria.database.DatabaseRequest
+import com.dam47455.pizzaria.data.User
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.UserProfileChangeRequest
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
@@ -55,7 +55,7 @@ class UserRegisterActivity : AppCompatActivity() {
 
     private fun registerUser(newUser: RegisterUser){
         fAuth.createUserWithEmailAndPassword(newUser.email, newUser.password).addOnSuccessListener {
-            databaseReference = FirebaseDatabase.getInstance(databaseURL).getReference("Users")
+            databaseReference = FirebaseDatabase.getInstance(DatabaseRequest.databaseURL).getReference("Users")
             val userInfo = User(newUser.firstName, newUser.lastName, newUser.email)
             Toast.makeText(this, fAuth.currentUser!!.uid, Toast.LENGTH_SHORT).show()
             databaseReference.child(fAuth.currentUser!!.uid).setValue(userInfo).addOnCompleteListener{

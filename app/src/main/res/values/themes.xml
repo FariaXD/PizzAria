@@ -14,7 +14,13 @@
         <!-- Customize your theme here. -->
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
         <item name="android:fontFamily">@font/arvo</item>
-
-
+        <item name="bottomNavigationStyle">@style/Widget.PizzAria.BottomNavigationView</item>
+    </style>
+    <style name="Widget.PizzAria.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.PizzAria.BottomNavigationView</item>
+    </style>
+    <style name="ThemeOverlay.PizzAria.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/shrine_pink_100</item>
+        <item name="colorOnPrimary">@color/shrine_pink_900</item>
     </style>
 </resources>

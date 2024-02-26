@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/reddark"
+    tools:context=".fragments.CheckoutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkout"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delivery Method"
+                android:textAlignment="center"
+                android:textColor="@color/shrine_pink_100"
+                android:textSize="24sp" />
+
+            <ToggleButton
+                android:id="@+id/takeawayCheckout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/button_rounded_corners"
+                android:textAlignment="center"
+                android:textColor="@color/reddark"
+                android:textOff="Delivery"
+                android:textOn="Takeaway"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Press to alter delivery method"
+                android:textAlignment="center"
+                android:textColor="@color/shrine_pink_100"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/food_item_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="@string/cart"
+                android:textAlignment="center"
+                android:textColor="@color/shrine_pink_100"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <GridView
+                android:id="@+id/checkoutCartItems"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1">
+
+            </GridView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.2"
+                    android:shadowDy="1.2"
+                    android:shadowRadius="1.2"
+                    android:text="@string/total"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/checkoutNumberOfItems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.2"
+                    android:shadowDy="1.2"
+                    android:shadowRadius="1.2"
+                    android:text="@string/x4"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/checkoutPriceTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.2"
+                    android:shadowDy="1.2"
+                    android:shadowRadius="1.2"
+                    android:text="@string/_200_76"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/food_item_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="@string/credit_card"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="0"
+                android:text="@string/card_number"
+                android:textColor="@color/yellow"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:id="@+id/cardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="@string/xxxx_xxxx_xxxx_xxxx"
+                android:inputType="number"
+                android:maxLength="20"
+                android:textColor="@color/white"
+                android:textColorHint="@color/extrasC"
+                app:mask="#### #### #### ####" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/security_code"
+                        android:textColor="@color/yellow"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/securityCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/xxx"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/extrasC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/expire_date"
+                        android:textColor="@color/yellow"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.santalu.maskara.widget.MaskEditText
+                        android:id="@+id/expirationDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="5"
+                        android:hint="@string/mm_yy"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/extrasC"
+                        app:mask="##/##" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/checkoutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:backgroundTint="@color/yellowcitrine"
+                android:text="@string/checkout"
+                android:textColor="@color/reddark" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

@@ -9,8 +9,37 @@
         <entry key="..\:/LEIM/6Semestre/DAM/PizzAria/app/src/main/res/layout/activity_user_register.xml" value="0.33" />
         <entry key="..\:/LEIM/6Semestre/DAM/PizzAria/app/src/main/res/layout/activity_welcome_user.xml" value="0.30480072463768115" />
         <entry key="..\:/LEIM/6Semestre/DAM/PizzAria/app/src/main/res/layout/sample.xml" value="0.30480072463768115" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/drawable/alert_dialog_background.xml" value="0.2355" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/drawable/button_rounded_corners.xml" value="0.2355" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/drawable/food_item_background.xml" value="0.2355" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/drawable/input_profile_data.xml" value="0.2355" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/drawable/profile_banner.xml" value="0.2355" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/activity_main.xml" value="0.30480072463768115" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/activity_profile.xml" value="0.33016304347826086" />
         <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/activity_user_login.xml" value="0.30480072463768115" />
-        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/activity_user_register.xml" value="0.5" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/activity_user_register.xml" value="0.25" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/activity_welcome_user.xml" value="0.30480072463768115" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/cart_item.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/cart_total_item.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/change_password.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/credit_card_incorrect.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/dialog_message.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/food_item.xml" value="0.33" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/fragment_cart.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/fragment_checkout.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/fragment_home.xml" value="0.33016304347826086" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/fragment_orders.xml" value="0.36666666666666664" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/fragment_profile.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/fragment_search.xml" value="0.33016304347826086" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/fragment_security.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/fragment_settings.xml" value="0.33016304347826086" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/item_on_board.xml" value="0.30480072463768115" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/order_item.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/profile_banner.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/sample.xml" value="0.30480072463768115" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/layout/user_address_request.xml" value="0.296195652173913" />
+        <entry key="..\:/LEIM/6Semestre/DAMFinal/PizzAria/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
